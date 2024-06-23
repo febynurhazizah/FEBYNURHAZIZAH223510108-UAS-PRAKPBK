@@ -1,0 +1,37 @@
+* {
+    font-family: 'Times New Roman', Times, serif !important;
+    text-decoration: none !important;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+:root {
+    --dark-brown: #2E0100;
+    --dark-burgundy: #442225;
+    --brown: #f5d0d0;
+    --light-pink: #6d3939;
+    --lightest-pink: #F8DFE3;
+  }
+
+  body {
+    background-color: var(--lightest-pink);
+  }
+  
+  .nav-list {
+    background-color: var(--dark-brown);
+    color: var(--lightest-pink);
+  }
+  
+  .q-btn-dropdown {
+    background-color: var(--dark-burgundy);
+    color: var(--lightest-pink);
+  }
+  
+  .q-toolbar {
+    background-color: var(--brown);
+    color: var(--light-pink);
+  }
+  
